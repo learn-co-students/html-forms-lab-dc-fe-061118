@@ -9,10 +9,27 @@
 
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
+    <form>
+      <label for='fullname'>Enter Name</label>
+      <input type='text' name='fullname' id='fullname' placeholder="Enter Name" required/>
 
+      <label for="email">Enter Email</label>
+      <input type='email' name='email' id='email' placeholder='Enter Email' required/>     
+      
+      <label for="phone">Enter Telephone (optional)</label>
+      <input type='tel' name='tel' id='phone' placeholder="Enter Telephone (optional)"/>  
+      
+      <label for="message">Enter Message</label>
+      <textarea name='textarea' id='message' placeholder="Enter Message">
+      </textarea>
+      
+      <input type="checkbox" name="Working" value="working">Does this work?
+      </input>
+      
+      <input type='submit'>Submit</input>
+    </form>
+    
     <!-- First, create a form tag where our inputs will be nested -->
-
-
       <!-- Add a label for 'fullname'-->
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
@@ -42,7 +59,6 @@
 
 
       <!-- Add a checkbox input with the type set to 'submit' -->
-
-    
+    </form>
   </body>
 </html>
